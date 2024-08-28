@@ -41,7 +41,7 @@ export default function Home() {
   };
 
   return (
-    <main>
+    <main className="overflow-hidden">
       <div
         className="sm:bg-black bg-[#D7D7D7] flex justify-start min-h-[100vh]"
         data-aos="fade-up"
@@ -427,7 +427,7 @@ export default function Home() {
             height={12}
           />
         </div>
-        <form onSubmit={handleSubmit} className="space-y-9 w-full flex flex-col items-center">
+        <form onSubmit={handleSubmit} className="space-y-9 w-full flex flex-col items-center overflow-hidden">
       <div className="border-black border-custom w-full pl-2">
         <input
           type="text"
