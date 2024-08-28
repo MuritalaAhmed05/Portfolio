@@ -427,7 +427,7 @@ export default function Home() {
             height={12}
           />
         </div>
-        <form onSubmit={handleSubmit} className="space-y-9 w-full">
+        <form onSubmit={handleSubmit} className="space-y-9 w-full flex flex-col items-center">
       <div className="border-black border-custom w-full pl-2">
         <input
           type="text"
@@ -470,12 +470,12 @@ export default function Home() {
           required
         ></textarea>
       </div>
-    </form>
-      <div className="border-customBtn border-black text-xs px-[2rem] py-2 font-bold tracking-widest self-center">
+      <div className="border-customBtn border-black text-xs px-[2rem] py-2 font-bold tracking-widest flex justify-center items-center ">
         <button type="submit" className="border-none bg-transparent outline-none">
           SUBMIT
         </button>
       </div>
+    </form>
       </div>
 
       <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[4rem]">
