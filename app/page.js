@@ -163,9 +163,9 @@ export default function Home() {
         <div className="">
           <h1 className="font-bold text-[#b4acac]">Quick Intro</h1>
           <p className="text-xs z-0">
-            I’m a passionate frontend developer with a deep interest in building
+            I&apos;m a passionate frontend developer with a deep interest in building
             intuitive and responsive web interfaces. With a strong focus on
-            creating seamless user experiences, I’ve honed my skills in HTML,
+            creating seamless user experiences, I&apos;ve honed my skills in HTML,
             CSS, JavaScript, and modern frameworks like React. My journey has
             been driven by continuous learning and experimenting with the latest
             design trends and technologies. I particularly enjoy tackling
