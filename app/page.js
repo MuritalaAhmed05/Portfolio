@@ -187,7 +187,7 @@ export default function Home() {
         </div>
 
         <p className="text-[18px]">
-          Hey there! 👋 I'm Muritala Ahmed, a passionate Frontend Developer with
+          Hey there! 👋 I&apos;m Muritala Ahmed, a passionate Frontend Developer with
           a love for crafting sleek and intuitive digital experiences. With a
           keen eye for detail and a knack for problem-solving, I transform
           creative ideas into dynamic web applications. <br />
@@ -195,14 +195,14 @@ export default function Home() {
           My journey in tech started with a fascination for how things work
           behind the scenes. This curiosity quickly evolved into a love for
           coding, where I found joy in bringing concepts to life through code.
-          I'm always exploring new technologies to stay on the cutting edge.
-          When I'm not coding, you can find me exploring the latest trends in
+          I&apos;m always exploring new technologies to stay on the cutting edge.
+          When I&apos;m not coding, you can find me exploring the latest trends in
           web design, experimenting with new tech, or diving into a good book.{" "}
           <br />
           <br /> My goal is to create beautiful, user-centric websites that not
           only look great but also deliver exceptional performance. Feel free to
-          browse through my portfolio to see some of the exciting projects I've
-          been working on. Let's connect and see how we can bring your next big
+          browse through my portfolio to see some of the exciting projects I&apos;ve
+          been working on. Let&apos;s connect and see how we can bring your next big
           idea to life!
         </p>
 
@@ -413,9 +413,9 @@ export default function Home() {
         </div>
         <p className="text-sm mt-4">
           If you have any questions, need more information, or want to
-          collaborate on a project, feel free to reach out! I'm always open to
+          collaborate on a project, feel free to reach out! I&apos;m always open to
           discussing new ideas, opportunities, or even just a quick chat about
-          frontend development. Let's connect and see how we can bring your
+          frontend development. Let&apos;s connect and see how we can bring your
           vision to life!
         </p>
 
