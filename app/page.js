@@ -54,11 +54,11 @@ export default function Home() {
           //   clipPath: "polygon(0 0, 100% 0%, 80% 100%, 0% 100%)",
           // }}
         >
-          <h2 className="mb-4 text-black text-[20px]">Hi, I am</h2>
+          <h2 className="sm:mb-4 mb-2 text-black text-[20px]">Hi, I am</h2>
           <h1 className="font-bold text-[#000000] text-[2rem] text-nowrap sm:text-[3rem] ">
             Muritala Ahmed
           </h1>
-          <p className="text-[#909090] font-bold">Frontend Developer</p>
+          <p className="text-[#909090] font-bold mb-2 sm:mb-0">Frontend Developer</p>
           <div className="sm:hidden mt-1">
           <Image
             src="separatorBlack 1.svg"
@@ -153,7 +153,7 @@ export default function Home() {
 
           <div className="hidden sm:block">
             <div>
-              <Image src="/ahmed.png" alt="ahmed" width={350} height={350} />
+              <Image src="/ahmed.png" alt="ahmed" width={350} height={350} className="mb-0 absolute bottom-0"/>
             </div>
           </div>
         </div>
