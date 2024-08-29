@@ -217,7 +217,7 @@ export default function Home() {
       </div>
 
       <div
-        className="flex flex-col bg-[#b3b3b3] sm:px-[10rem] sm:pt-[10rem]  items-center justify-center min-h-[100vh] px-[2rem]"
+        className="flex flex-col bg-[#b3b3b3] sm:px-[10rem] sm:pt-[10rem] py-[2rem]  items-center justify-center min-h-[100vh] px-[2rem]"
         data-aos="zoom-in-up"
         data-aos-duration="1000"
       >
@@ -233,7 +233,7 @@ export default function Home() {
                 />
                 <p className="font-bold">DESIGN</p>
               </div>
-              <p className="text-xs ml-9">
+              <p className="text-xs sm:ml-9">
                 I offer tailored web design services that bring your ideas to
                 life. Whether you have specific requirements or need a complete
                 design from scratch, I’ll work closely with you to create a
@@ -362,39 +362,28 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-0">
-  <div className="flex flex-wrap -mx-4">
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
-    <div className="w-1/3 px-4 mb-4">
-      <div className="sm:p-[3.5rem] p-[2rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-        a
-      </div>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+      a
     </div>
   </div>
 </div>
+
 
 
         <div className="bg-[#442f2f] text-white text-center py-3">
