@@ -55,7 +55,7 @@ export default function Home() {
           // }}
         >
           <h2 className="mb-4 text-black text-[20px]">Hi, I am</h2>
-          <h1 className="font-bold text-[#000000] text-[3rem]">
+          <h1 className="font-bold text-[#000000] text-[2rem] text-nowrap sm:text-[3rem] ">
             Muritala Ahmed
           </h1>
           <p className="text-[#909090] font-bold">Frontend Developer</p>
@@ -159,7 +159,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[#1D1D1D] text-white flex justify-between sm:py-9 sm:px-[10rem] relative  px-[4rem] py-5 bg-[url('html.svg')] bg-cover bg-center">
+      <div className="bg-[#1D1D1D] text-white flex justify-between sm:py-9 sm:px-[10rem] relative  px-[2rem] py-5 bg-[url('html.svg')] bg-cover bg-center">
         <div className="">
           <h1 className="font-bold text-[#b4acac]">Quick Intro</h1>
           <p className="text-xs z-0">
@@ -177,7 +177,7 @@ export default function Home() {
            </div>
 
       <div
-        className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] sm:py-[10rem] min-h-[100vh] px-[4rem] py-[4rem]"
+        className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] sm:py-[10rem] min-h-[100vh] px-[2rem] py-[4rem]"
         data-aos="fade-right"
         data-aos-duration="1000"
         id="about-section"
@@ -217,7 +217,7 @@ export default function Home() {
       </div>
 
       <div
-        className="flex flex-col bg-[#b3b3b3] sm:px-[10rem] sm:pt-[10rem]  items-center justify-center min-h-[100vh] px-[4rem]"
+        className="flex flex-col bg-[#b3b3b3] sm:px-[10rem] sm:pt-[10rem]  items-center justify-center min-h-[100vh] px-[2rem]"
         data-aos="zoom-in-up"
         data-aos-duration="1000"
       >
@@ -294,10 +294,10 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#e6e6e6] flex justify-center flex-col space-y-10  sm:px-[30rem] sm:pt-[.5rem] min-h-[100vh] px-[4rem]"
+        className="bg-[#e6e6e6] flex justify-center flex-col space-y-10  sm:px-[30rem] sm:pt-[.5rem] min-h-[100vh] px-[2rem]"
         id="skills-section"
       >
-        <div className="border-[5px] border-black py-3 px-[5rem] font-bold tracking-widest self-center">
+        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
           SKILLS
         </div>
         <p className="font-bold self-start tracking-widest">using Now:</p>
@@ -352,12 +352,12 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#999999] flex justify-center flex-col space-y-10  sm:px-[30rem] py-[5rem]  min-h-[100vh] px-[4rem]"
+        className="bg-[#999999] flex justify-center flex-col space-y-10  sm:px-[30rem] py-[5rem]  min-h-[100vh] px-[2rem]"
         id="project-section"
         data-aos="slide-left"
         data-aos-duration="1000"
       >
-        <div className="border-[5px] border-black py-3 px-[5rem] font-bold tracking-widest self-center">
+        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
           PROJECTS
         </div>
 
@@ -403,12 +403,12 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#b3b3b3] flex justify-center flex-col space-y-10 items-center sm:px-[30rem] py-[2rem] min-h-[100vh] px-[4rem]"
+        className="bg-[#b3b3b3] flex justify-center flex-col space-y-10 items-center sm:px-[30rem] py-[2rem] min-h-[100vh] px-[2rem]"
         id="contact-section"
         // data-aos="zoom-in"
         data-aos-duration="1000"
       >
-        <div className="border-[5px] border-black py-3 px-[5rem] font-bold tracking-widest self-center">
+        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
           CONTACT
         </div>
         <p className="text-sm mt-4">
@@ -478,7 +478,7 @@ export default function Home() {
     </form>
       </div>
 
-      <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[4rem]">
+      <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[2rem]">
         <div
           className="text-white flex flex-col gap-2 items-center "
           onClick={() => {
