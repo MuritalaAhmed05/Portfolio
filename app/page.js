@@ -295,102 +295,146 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#e6e6e6] flex justify-center flex-col space-y-10  sm:px-[30rem] sm:pt-[.5rem] min-h-[100vh] px-[2rem]"
-        id="skills-section"
-      >
-        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
-          SKILLS
-        </div>
-        <p className="font-bold self-start tracking-widest">using Now:</p>
-        <div className="flex  justify-between">
-          <Image
-            src="Group 12 (1).svg"
-            alt="Group 12 (1).svg"
-            width={45}
-            height={55}
-          />
-          <Image src="Group 13.svg" alt="Group 13.svg" width={45} height={55} />
-          <Image
-            src="Group (1).svg"
-            alt="Group (1).svg"
-            width={45}
-            height={55}
-          />
-          <Image src="Group 14.svg" alt="Group 14.svg" width={45} height={55} />
-        </div>
-        <div className="flex  justify-between">
-          <Image src="git.svg" alt="git.svg" width={45} height={55} />
-          <Image src="next.svg" alt="next.svg" width={45} height={55} />
-          <Image src="figma.svg" alt="figma.svg" width={45} height={55} />
-          <Image
-            src="Group (2).svg"
-            alt="Group (2).svg"
-            width={45}
-            height={55}
-          />
-        </div>
-        <div className="flex  justify-between">
-          <Image
-            src="Vector (6).svg"
-            alt="Vector (6).svg"
-            width={45}
-            height={55}
-          />
-          <Image
-            src="Group (3).svg"
-            alt="Group (3).svg"
-            width={45}
-            height={55}
-          />
-          <Image
-            src="Vector (7).svg"
-            alt="Vector (7).svg"
-            width={45}
-            height={55}
-          />
-          <Image src="tailwind.svg" alt="tailwind.svg" width={45} height={55} />
-        </div>
-      </div>
-
-      <div
-        className="bg-[#999999] flex justify-center flex-col space-y-10  sm:px-[30rem] py-[5rem]  min-h-[100vh] px-[2rem]"
-        id="project-section"
-        data-aos="slide-left"
-        data-aos-duration="1000"
-      >
-        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
-          PROJECTS
-        </div>
-
-        <div className="container mx-auto px-0">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-    <Link href="https://analog-clock-two-chi.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      ANALOG CLOCK
-    </Link>
-    <Link href="https://calc-eta-umber.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      SIMPLE CALCULATOR
-    </Link>
-    <Link href="https://cart-sigma-sandy.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      A SIMPLE CART PAGE
-    </Link>
-    <Link href="https://crush-message-qgzt.vercel.app/" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      SEND MESSAGE TO YOUR CRUSH 
-    </Link>
-    <Link href="https://timbu-shop-kappa.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      TIMBU SHOPPING WEBSITE
-    </Link>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
-      a
-    </div>
+  className="bg-[#e6e6e6] flex justify-center flex-col space-y-10 py-20 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 min-h-screen"
+  id="skills-section"
+>
+  <div className="border-[5px] border-black py-3 px-8 sm:px-12 font-bold tracking-widest self-center">
+    SKILLS
+  </div>
+  <p className="font-bold tracking-widest self-start pl-20 sm:pl-10 ">
+    using Now:
+  </p>
+  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+    <Image
+      src="Group 12 (1).svg"
+      alt="Group 12 (1).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Group 13.svg"
+      alt="Group 13.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Group (1).svg"
+      alt="Group (1).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Group 14.svg"
+      alt="Group 14.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+  </div>
+  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+    <Image
+      src="git.svg"
+      alt="git.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="next.svg"
+      alt="next.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="figma.svg"
+      alt="figma.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Group (2).svg"
+      alt="Group (2).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+  </div>
+  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+    <Image
+      src="Vector (6).svg"
+      alt="Vector (6).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Group (3).svg"
+      alt="Group (3).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="Vector (7).svg"
+      alt="Vector (7).svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
+    <Image
+      src="tailwind.svg"
+      alt="tailwind.svg"
+      width={45}
+      height={55}
+      className="mx-auto"
+    />
   </div>
 </div>
 
 
+      <div
+  className="bg-[#999999] flex justify-center flex-col space-y-10 py-20 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-32 min-h-screen"
+  id="project-section"
+  data-aos="slide-left"
+  data-aos-duration="1000"
+>
+  <div className="border-[5px] border-black py-3 px-8 sm:px-12 font-bold tracking-widest self-center">
+    PROJECTS
+  </div>
 
-        <div className="bg-[#442f2f] text-white text-center py-3">
-          And more to come....
-        </div>
+  <div className="container mx-auto px-0">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <Link href="https://analog-clock-two-chi.vercel.app" className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        ANALOG CLOCK
+      </Link>
+      <Link href="https://calc-eta-umber.vercel.app" className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        SIMPLE CALCULATOR
+      </Link>
+      <Link href="https://cart-sigma-sandy.vercel.app" className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        A SIMPLE CART PAGE
+      </Link>
+      <Link href="https://crush-message-qgzt.vercel.app/" className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        SEND MESSAGE TO YOUR CRUSH
+      </Link>
+      <Link href="https://timbu-shop-kappa.vercel.app" className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        TIMBU SHOPPING WEBSITE
+      </Link>
+      <div className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+        More Projects
       </div>
+    </div>
+  </div>
+
+  <div className="bg-[#442f2f] text-white text-center py-3">
+    And more to come....
+  </div>
+</div>
+
 
       <div
   className="bg-[#b3b3b3] flex justify-center flex-col items-center space-y-10 py-8 min-h-[100vh] px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32"
