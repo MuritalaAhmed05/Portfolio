@@ -417,55 +417,56 @@ export default function Home() {
             height={12}
           />
         </div>
-        <form onSubmit={handleSubmit} className="space-y-9 w-full flex flex-col items-center overflow-hidden">
-      <div className="border-black border-custom w-full pl-2">
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B]"
-          placeholder="ENTER YOUR NAME"
-          required
-        />
-      </div>
-      <div className="border-black border-custom w-full pl-2">
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B]"
-          placeholder="ENTER YOUR EMAIL"
-          required
-        />
-      </div>
-      <div className="border-black border-custom w-full pl-2">
-        <input
-          type="text"
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B]"
-          placeholder="PHONE NUMBER"
-          required
-        />
-      </div>
-      <div className="border-black border-custom w-full pl-2">
-        <textarea
-          cols={20}
-          rows={3}
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B]"
-          style={{ resize: 'none' }}
-          placeholder="YOUR MESSAGE"
-          required
-        ></textarea>
-      </div>
-      <div className="border-customBtn border-black text-xs px-[2rem] py-2 font-bold tracking-widest flex justify-center items-center ">
-        <button type="submit" className="border-none bg-transparent outline-none">
-          SUBMIT
-        </button>
-      </div>
-    </form>
+        <form onSubmit={handleSubmit} className="space-y-6 w-full max-w-md mx-auto flex flex-col items-center overflow-hidden">
+  <div className="border-black border-custom w-full pl-2">
+    <input
+      type="text"
+      value={name}
+      onChange={(e) => setName(e.target.value)}
+      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+      placeholder="ENTER YOUR NAME"
+      required
+    />
+  </div>
+  <div className="border-black border-custom w-full pl-2">
+    <input
+      type="email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+      placeholder="ENTER YOUR EMAIL"
+      required
+    />
+  </div>
+  <div className="border-black border-custom w-full pl-2">
+    <input
+      type="text"
+      value={phone}
+      onChange={(e) => setPhone(e.target.value)}
+      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+      placeholder="PHONE NUMBER"
+      required
+    />
+  </div>
+  <div className="border-black border-custom w-full pl-2">
+    <textarea
+      cols={20}
+      rows={3}
+      value={message}
+      onChange={(e) => setMessage(e.target.value)}
+      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+      style={{ resize: 'none' }}
+      placeholder="YOUR MESSAGE"
+      required
+    ></textarea>
+  </div>
+  <div className="border-customBtn border-black text-xs md:text-sm px-[1.5rem] md:px-[2rem] py-2 font-bold tracking-widest flex justify-center items-center ">
+    <button type="submit" className="border-none bg-transparent outline-none">
+      SUBMIT
+    </button>
+  </div>
+</form>
+
       </div>
 
       <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[2rem]">
