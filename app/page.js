@@ -393,81 +393,84 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#b3b3b3] flex justify-center flex-col space-y-10 items-center sm:px-[30rem] py-[2rem] min-h-[100vh] px-[2rem]"
-        id="contact-section"
-        // data-aos="zoom-in"
-        data-aos-duration="1000"
-      >
-        <div className="border-[5px] border-black py-3 px-[2.5rem] sm:px-[5rem] font-bold tracking-widest self-center">
-          CONTACT
-        </div>
-        <p className="text-sm mt-4">
-          If you have any questions, need more information, or want to
-          collaborate on a project, feel free to reach out! I&apos;m always open to
-          discussing new ideas, opportunities, or even just a quick chat about
-          frontend development. Let&apos;s connect and see how we can bring your
-          vision to life!
-        </p>
+  className="bg-[#b3b3b3] flex justify-center flex-col items-center space-y-10 py-8 min-h-[100vh] px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32"
+  id="contact-section"
+  // data-aos="zoom-in"
+  data-aos-duration="1000"
+>
+  <div className="border-[5px] border-black py-3 px-8 sm:px-12 font-bold tracking-widest self-center">
+    CONTACT
+  </div>
+  <p className="text-sm mt-4 text-center max-w-2xl mx-auto">
+    If you have any questions, need more information, or want to
+    collaborate on a project, feel free to reach out! I&apos;m always open to
+    discussing new ideas, opportunities, or even just a quick chat about
+    frontend development. Let&apos;s connect and see how we can bring your
+    vision to life!
+  </p>
 
-        <div>
-          <Image
-            src="separatorBlack 1.svg"
-            alt="separatorBlack 1.svg"
-            width={170}
-            height={12}
-          />
-        </div>
-        <form onSubmit={handleSubmit} className="space-y-6 w-full max-w-md mx-auto flex flex-col items-center overflow-hidden">
-  <div className="border-black border-custom w-full pl-2">
-    <input
-      type="text"
-      value={name}
-      onChange={(e) => setName(e.target.value)}
-      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
-      placeholder="ENTER YOUR NAME"
-      required
+  <div>
+    <Image
+      src="separatorBlack 1.svg"
+      alt="separatorBlack 1.svg"
+      width={170}
+      height={12}
     />
   </div>
-  <div className="border-black border-custom w-full pl-2">
-    <input
-      type="email"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
-      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
-      placeholder="ENTER YOUR EMAIL"
-      required
-    />
-  </div>
-  <div className="border-black border-custom w-full pl-2">
-    <input
-      type="text"
-      value={phone}
-      onChange={(e) => setPhone(e.target.value)}
-      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
-      placeholder="PHONE NUMBER"
-      required
-    />
-  </div>
-  <div className="border-black border-custom w-full pl-2">
-    <textarea
-      cols={20}
-      rows={3}
-      value={message}
-      onChange={(e) => setMessage(e.target.value)}
-      className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
-      style={{ resize: 'none' }}
-      placeholder="YOUR MESSAGE"
-      required
-    ></textarea>
-  </div>
-  <div className="border-customBtn border-black text-xs md:text-sm px-[1.5rem] md:px-[2rem] py-2 font-bold tracking-widest flex justify-center items-center ">
-    <button type="submit" className="border-none bg-transparent outline-none">
-      SUBMIT
-    </button>
-  </div>
-</form>
 
-      </div>
+  <form
+    onSubmit={handleSubmit}
+    className="space-y-6 w-full max-w-lg mx-auto flex flex-col items-center overflow-hidden"
+  >
+    <div className="border-black border-custom w-full pl-2">
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+        placeholder="ENTER YOUR NAME"
+        required
+      />
+    </div>
+    <div className="border-black border-custom w-full pl-2">
+      <input
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+        placeholder="ENTER YOUR EMAIL"
+        required
+      />
+    </div>
+    <div className="border-black border-custom w-full pl-2">
+      <input
+        type="text"
+        value={phone}
+        onChange={(e) => setPhone(e.target.value)}
+        className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+        placeholder="PHONE NUMBER"
+        required
+      />
+    </div>
+    <div className="border-black border-custom w-full pl-2">
+      <textarea
+        cols={20}
+        rows={3}
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        className="bg-transparent outline-none border-none w-full placeholder:text-xs placeholder:text-[#8B8B8B] text-sm md:text-base"
+        style={{ resize: 'none' }}
+        placeholder="YOUR MESSAGE"
+        required
+      ></textarea>
+    </div>
+    <div className="border-customBtn border-black text-xs md:text-sm px-4 py-2 font-bold tracking-widest flex justify-center items-center ">
+      <button type="submit" className="border-none bg-transparent outline-none">
+        SUBMIT
+      </button>
+    </div>
+  </form>
+</div>
 
       <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[2rem]">
         <div
