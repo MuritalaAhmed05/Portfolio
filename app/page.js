@@ -50,10 +50,8 @@ export default function Home() {
         id="home"
       >
         <div
-          className="sm:p-[14rem] flex flex-col justify-center sm:items-start bg-[#D7D7D7] lg:clip-path-polygon w-full sm:w-[55%] items-center "
-          // style={{
-          //   clipPath: "polygon(0 0, 100% 0%, 80% 100%, 0% 100%)",
-          // }}
+          className="sm:p-[14rem] md:p-[8rem] p-[2rem] lg:p-[14rem] xl:p-[15rem] flex flex-col justify-center sm:items-start bg-[#D7D7D7] lg:clip-path-polygon w-full sm:w-[55%] items-center "
+          
         >
           <h2 className="sm:mb-4 mb-2 text-black text-[20px]">Hi, I am</h2>
           <h1 className="font-bold text-[#000000] text-[2rem] text-nowrap sm:text-[3rem] ">
@@ -177,45 +175,46 @@ export default function Home() {
         </div>
            </div>
 
-      <div
-        className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] sm:py-[10rem] min-h-[100vh] px-[2rem] py-[4rem]"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        id="about-section"
-      >
-        <div className="border-[5px] border-black py-3 px-8 tracking-widest">
-          ABOUT ME
-        </div>
+           <div
+  className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] md:px-[8rem] lg:px-[10rem] sm:py-[10rem] md:py-[8rem] lg:py-[10rem] px-[2rem] py-[4rem] min-h-[100vh]"
+  data-aos="fade-right"
+  data-aos-duration="1000"
+  id="about-section"
+>
+  <div className="border-[5px] border-black py-3 px-8 tracking-widest">
+    ABOUT ME
+  </div>
 
-        <p className="text-[18px]">
-          Hey there! 👋 I&apos;m Muritala Ahmed, a passionate Frontend Developer with
-          a love for crafting sleek and intuitive digital experiences. With a
-          keen eye for detail and a knack for problem-solving, I transform
-          creative ideas into dynamic web applications. <br />
-          <br />
-          My journey in tech started with a fascination for how things work
-          behind the scenes. This curiosity quickly evolved into a love for
-          coding, where I found joy in bringing concepts to life through code.
-          I&apos;m always exploring new technologies to stay on the cutting edge.
-          When I&apos;m not coding, you can find me exploring the latest trends in
-          web design, experimenting with new tech, or diving into a good book.{" "}
-          <br />
-          <br /> My goal is to create beautiful, user-centric websites that not
-          only look great but also deliver exceptional performance. Feel free to
-          browse through my portfolio to see some of the exciting projects I&apos;ve
-          been working on. Let&apos;s connect and see how we can bring your next big
-          idea to life!
-        </p>
+  <p className="text-[18px]">
+    Hey there! 👋 I&apos;m Muritala Ahmed, a passionate Frontend Developer with
+    a love for crafting sleek and intuitive digital experiences. With a
+    keen eye for detail and a knack for problem-solving, I transform
+    creative ideas into dynamic web applications. <br />
+    <br />
+    My journey in tech started with a fascination for how things work
+    behind the scenes. This curiosity quickly evolved into a love for
+    coding, where I found joy in bringing concepts to life through code.
+    I&apos;m always exploring new technologies to stay on the cutting edge.
+    When I&apos;m not coding, you can find me exploring the latest trends in
+    web design, experimenting with new tech, or diving into a good book.{" "}
+    <br />
+    <br /> My goal is to create beautiful, user-centric websites that not
+    only look great but also deliver exceptional performance. Feel free to
+    browse through my portfolio to see some of the exciting projects I&apos;ve
+    been working on. Let&apos;s connect and see how we can bring your next big
+    idea to life!
+  </p>
 
-        <div>
-          <Image
-            src="separatorBlack 1.svg"
-            alt="separatorBlack 1.svg"
-            width={170}
-            height={12}
-          />
-        </div>
-      </div>
+  <div>
+    <Image
+      src="separatorBlack 1.svg"
+      alt="separatorBlack 1.svg"
+      width={170}
+      height={12}
+    />
+  </div>
+</div>
+
 
       <div
         className="flex flex-col bg-[#b3b3b3] sm:px-[10rem] sm:pt-[10rem] py-[2rem]  items-center justify-center min-h-[100vh] px-[2rem]"
@@ -301,7 +300,7 @@ export default function Home() {
   <div className="border-[5px] border-black py-3 px-8 sm:px-12 font-bold tracking-widest self-center">
     SKILLS
   </div>
-  <p className="font-bold tracking-widest self-start pl-20 sm:pl-10 ">
+  <p className="font-bold tracking-widest self-start pl-20 sm:pl-[4rem] ">
     using Now:
   </p>
   <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
@@ -516,49 +515,38 @@ export default function Home() {
   </form>
 </div>
 
-      <footer className="bg-[#1A1A1A] flex justify-center cursor-pointer text-white flex-col space-y-6 items-center sm:px-[30rem] py-[1rem] min-h-[5vh] px-[2rem]">
-        <div
-          className="text-white flex flex-col gap-2 items-center "
-          onClick={() => {
-            handleScroll("home");
-          }}
-        >
-          <MdKeyboardDoubleArrowUp />
-          <p>BACK TO TOP</p>
-        </div>
+<footer className="bg-[#1A1A1A] flex flex-col items-center space-y-6 text-white py-4 px-6 sm:px-32 cursor-pointer min-h-[5vh]">
+  <div
+    className="flex flex-col items-center gap-2"
+    onClick={() => {
+      handleScroll("home");
+    }}
+  >
+    <MdKeyboardDoubleArrowUp />
+    <p>BACK TO TOP</p>
+  </div>
 
-        <div className="flex gap-3 ">
-          <a href="https://x.com/ahmed_muri50344?s=09">
-            <div className="  w-8 h-8 ">
-              <FaXTwitter />
-            </div>
-          </a>
+  <div className="flex gap-3">
+    <a href="https://x.com/ahmed_muri50344?s=09" className="w-8 h-8">
+      <FaXTwitter />
+    </a>
+    <a href="https://facebook.com/akinlolu.ifeoluwa.94" className="w-8 h-8">
+      <FaFacebook />
+    </a>
+    <a href="https://wa.me/2349020507509" className="w-8 h-8">
+      <FaWhatsapp />
+    </a>
+    <a href="https://www.linkedin.com/in/muritala-ahmed-03803226a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="w-8 h-8">
+      <FaLinkedin />
+    </a>
+    <a href="mailto:muritalaahmed407@gmail.com" className="w-8 h-8">
+      <MdOutlineEmail />
+    </a>
+  </div>
 
-          <a href="https://facebook.com/akinlolu.ifeoluwa.94">
-            <div className="  w-8 h-8 ">
-              <FaFacebook />
-            </div>
-          </a>
+  <p className="text-sm text-center">@2024 Muritala Ahmed All Rights Reserved.</p>
+</footer>
 
-          <a href="https://wa.me/2349020507509">
-            <div className="  w-8 h-8 ">
-              <FaWhatsapp />
-            </div>
-          </a>
-
-          <a href="https://www.linkedin.com/in/muritala-ahmed-03803226a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-            <div className="  w-8 h-8 ">
-              <FaLinkedin />
-            </div>
-          </a>
-          <a href="mailto:muritalaahmed407@gmail.com">
-            <div className="  w-8 h-8 ">
-              <MdOutlineEmail />
-            </div>
-          </a>
-        </div>
-        <p className="text-sm text-nowrap">@2024 Muritala Ahmed All Rights Reserved.</p>
-      </footer>
     </main>
   );
 }
