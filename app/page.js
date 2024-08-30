@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 export default function Home() {
   const [activeButton, setActiveButton] = useState("");
@@ -363,22 +364,22 @@ export default function Home() {
 
         <div className="container mx-auto px-0">
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-      a
-    </div>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-      a
-    </div>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-      a
-    </div>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-      a
-    </div>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
-      a
-    </div>
-    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300">
+    <Link href="https://analog-clock-two-chi.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+      ANALOG CLOCK
+    </Link>
+    <Link href="https://calc-eta-umber.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+      SIMPLE CALCULATOR
+    </Link>
+    <Link href="https://cart-sigma-sandy.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+      A SIMPLE CART PAGE
+    </Link>
+    <Link href="https://crush-message-qgzt.vercel.app/" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+      SEND MESSAGE TO YOUR CRUSH 
+    </Link>
+    <Link href="https://timbu-shop-kappa.vercel.app" className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
+      TIMBU SHOPPING WEBSITE
+    </Link>
+    <div className="p-[2rem] sm:p-[3.5rem] bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold">
       a
     </div>
   </div>
