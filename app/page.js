@@ -501,7 +501,7 @@ export default function Home() {
               className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold"
               data-aos="zoom-in-out"
               data-aos-duration="3000"
-              data-aos-delay="4000"
+              data-aos-delay="1000"
             >
               A SIMPLE CART PAGE
             </Link>
@@ -510,7 +510,7 @@ export default function Home() {
               className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold"
               data-aos="zoom-in-left"
               data-aos-duration="4000"
-              data-aos-delay="3000"
+              data-aos-delay="1000"
             >
               SEND MESSAGE TO YOUR CRUSH
             </Link>
@@ -519,7 +519,7 @@ export default function Home() {
               className="p-8 sm:p-12 bg-[#d9d9d9] shadow-md rounded-lg hover:scale-105 hover:shadow-lg transform transition duration-300 flex justify-center items-center text-center font-bold"
               data-aos="zoom-out"
               data-aos-duration="1000"
-              data-aos-delay="2000"
+              data-aos-delay="1000"
             >
               TIMBU SHOPPING WEBSITE
             </Link>
