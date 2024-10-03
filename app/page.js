@@ -191,7 +191,7 @@ export default function Home() {
       </div>
 
       <div
-        className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] md:px-[8rem] lg:px-[10rem]  px-[2rem] py-[4rem] min-h-[100vh]"
+        className="bg-[#D7D7D7] flex justify-center flex-col space-y-10 items-center sm:px-[10rem] md:px-[8rem] lg:px-[10rem] sm:py-[3rem] md:py-[8rem] lg:py-[10rem] px-[2rem] py-[4rem] sm:min-h-[100vh]"
         data-aos="fade-right"
         data-aos-duration="1000"
         id="about-section"
